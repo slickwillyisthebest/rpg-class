@@ -1,0 +1,4 @@
+swordsman,alexander,100,10
+brawler,graham,300,15
+pacifist,ethan,12,4
+zombie,ghoul,40,50

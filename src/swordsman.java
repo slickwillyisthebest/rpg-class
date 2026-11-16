@@ -6,11 +6,16 @@ public class swordsman extends combatant implements special {
     public String attack() {
         return getName() + " swings their sword.";
     }
-    @Override
     public String getName() {
         return Name;
     }
 
+    public int getStamina() {
+        return stamina;
+    }
+    public int getHp() {
+        return hp;
+    }
     @Override
     public String easyWayOut() {
         return getName()+" drove their sword through their heart and died.";

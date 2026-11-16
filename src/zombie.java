@@ -6,9 +6,15 @@ public class zombie extends combatant implements special {
     public String attack() {
         return getName() + " claws at its prey.";
     }
-    @Override
     public String getName() {
         return Name;
+    }
+
+    public int getStamina() {
+        return stamina;
+    }
+    public int getHp() {
+        return hp;
     }
 
     @Override

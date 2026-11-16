@@ -8,9 +8,15 @@ public class brawler extends combatant implements special {
         return getName() + " takes a swing.";
     }
 
-    @Override
     public String getName() {
         return Name;
+    }
+
+    public int getStamina() {
+        return stamina;
+    }
+    public int getHp() {
+        return hp;
     }
 
     @Override

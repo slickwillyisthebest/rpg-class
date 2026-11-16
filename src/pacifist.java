@@ -8,9 +8,15 @@ public class pacifist extends combatant {
         return getName() + " chickened out.";
     }
 
-    @Override
     public String getName() {
         return Name;
+    }
+
+    public int getStamina() {
+        return stamina;
+    }
+    public int getHp() {
+        return hp;
     }
 
     @Override
